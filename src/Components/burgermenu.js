@@ -20,7 +20,7 @@ function BurgerMenu() {
                 <div className={`bar ${menuOpen ? 'open' : ''}`} />
                 <div className={`bar ${menuOpen ? 'open' : ''}`} />
             </div>
-            <div className="menu-popup">
+            <div className={`menu-popup ${menuOpen ? 'open' : ''}`}>
                 {menuOpen && (
                     <div>
                         <div className="close-icon" onClick={closeMenu}>
@@ -37,5 +37,8 @@ function BurgerMenu() {
         </div>
     );
 }
+
+
+
 
 export default BurgerMenu;

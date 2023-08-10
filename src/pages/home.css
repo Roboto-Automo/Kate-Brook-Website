@@ -51,11 +51,9 @@ figcaption{
     
 }
 .IconsContainer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 25px;
-    margin-right: 120px;
+  text-align: right;
+    padding: 20px 0; 
+    padding-right: 5em;
 }
 
 .IconsContainer .Icon {
@@ -70,7 +68,7 @@ figcaption{
 }
 
 /* Small screens (up to 600px) */
-@media (max-width: 690px) {
+@media (max-width: 720px) {
     .Home {
         align-items: center; /* Add this property to center the content */
         
@@ -99,10 +97,6 @@ figcaption{
         text-align: justify; /* Reset text alignment */
     }
 
-    .IconsContainer {
-        margin-top: 10px;
-        margin-right: 20px;
-    }
 
     .Icon {
         width: 20px;
