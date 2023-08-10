@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'CustomFont'; 
+    src: url('../Fonts/FontsFree-Net-Avenir-Light.ttf') format('truetype'); 
+  }
+
+
+.navbar {
+    color: #000000;
+    align-items: center;
+    font-family: 'CustomFont';
+    font-size: 17px;
+    margin-top: 35px;
+}
+
+/* Apply styling to the links */
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit the text color from the parent */
+    font-weight: bold; /* Apply bold font to the links */
+    padding-right: 50px;
+    padding-left: 50px;
+}

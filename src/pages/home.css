@@ -1,0 +1,29 @@
+
+
+.Home {
+    background-color: #ffffff;
+    text-align: center; /* Center aligns children horizontally */
+    padding: 2px 0; /* Adding vertical padding to space things out */
+}
+
+.Home h1 {
+    font-size: 3.5rem;
+    color: #333;
+    font-family: 'CustomFont';
+    letter-spacing: 0.75rem;
+    padding-top: 17px; 
+}
+
+img {
+    width: 493px;
+    height: 428px;
+    display: block; /* To center using margin: auto */
+    margin: auto;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto; /* To center using margin: auto */
+    padding: 1rem;
+    font-family: 'CustomFont';
+}
