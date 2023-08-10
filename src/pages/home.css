@@ -4,6 +4,7 @@
     background-color: #ffffff;
     text-align: center; /* Center aligns children horizontally */
     padding: 2px 0; /* Adding vertical padding to space things out */
+    padding-left: 20px;
 }
 
 .Home h1 {
@@ -49,3 +50,65 @@ figcaption{
     line-height: 30px;
     
 }
+.IconsContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 120px;
+}
+
+.IconsContainer .Icon {
+    display: inline-block;
+    margin-right: 10px; /* Add some space between the items if needed */
+}
+
+.Icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 15px;
+}
+
+/* Small screens (up to 600px) */
+@media (max-width: 690px) {
+    .Home {
+        align-items: center; /* Add this property to center the content */
+        
+    }
+
+    .Home h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.5rem;
+    }
+
+    img {
+        width: 100%; /* Make images take full width */
+        height: auto;
+        display: block;
+        margin: auto; /* Center the image horizontally */
+    }
+    figure {
+        text-align: left;
+        width: 80%;
+    }
+    section {
+        width: 80%; /* Adjust the width */
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 auto; /* Center the section horizontally */
+        text-align: justify; /* Reset text alignment */
+    }
+
+    .IconsContainer {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .Icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+}
+
+

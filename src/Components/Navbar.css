@@ -4,12 +4,14 @@
   }
 
 
-.navbar {
-    color: #000000;
+  .navbar {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    color: #000000;
     font-family: 'CustomFont';
     font-size: 17px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 /* Apply styling to the links */
@@ -20,3 +22,4 @@
     padding-right: 50px;
     padding-left: 50px;
 }
+

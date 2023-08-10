@@ -1,12 +1,16 @@
 import './home.css';
 import { Link } from "react-router-dom";
-import Navbar from '../Components/Navbar';
 import KateBrookImage from '../images/KateBrook.jpg';
+import { Helmet } from 'react-helmet';
 
 function Home(){
     return (<div>
+     <Helmet>
+                <title>Your Page Title</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            </Helmet>
         <div className = "Home">
-        <Navbar />
+       
         <h1>KATE BROOK</h1>
         <figure>
         <img src={KateBrookImage} alt="Kate Brook" />
