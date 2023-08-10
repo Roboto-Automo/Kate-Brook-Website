@@ -8,7 +8,7 @@
 
 .Home h1 {
     font-size: 3.5rem;
-    color: #333;
+    color: #333333;
     font-family: 'CustomFont';
     letter-spacing: 0.75rem;
     padding-top: 17px; 
@@ -22,8 +22,13 @@ img {
 }
 
 section {
-    width: 50%;
+    width: 47%;
     margin: 0 auto; /* To center using margin: auto */
-    padding: 1rem;
+    padding: 50px;
     font-family: 'CustomFont';
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
