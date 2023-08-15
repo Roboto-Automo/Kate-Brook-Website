@@ -38,6 +38,7 @@
     height: 100%;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .menu-popup {
@@ -52,6 +53,12 @@
     visibility: visible; /* Display the content when open */
 }
 
+.menu-items a:hover {
+   color: #828282; /* Change background color of bars on hover */
+}
+.menu-items a:active {
+    color: #ffafaf; /* Change text color of menu links when clicked */
+}
 
 
 @media (max-width: 720px) {
