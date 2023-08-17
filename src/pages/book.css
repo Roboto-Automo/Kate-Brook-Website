@@ -37,3 +37,26 @@ height:550px;
 .topcomment{
     text-align: center;
 }
+
+.buyedition{
+    outline: none;
+    border: 1px solid rgb(50, 49, 49);
+    font-family: 'CustomFont';
+    font-size: 16px;
+    margin: 15px;
+    padding: 9px;
+color: white;
+background-color: rgb(50, 49, 49);
+}
+
+.buyedition:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+
+
+
+

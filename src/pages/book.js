@@ -14,7 +14,7 @@ const images = [
         <div className='bookpagecontainter'>
         <div className='book'>
         <div className='carousel-container'>
-            <Carousel className='crsl' showStatus={false}showThumbs={false} autoPlay={true} infiniteLoop={true} dynamicHeight={true}>
+            <Carousel className='crsl' showStatus={false}showThumbs={false} autoPlay={true} infiniteLoop={true} dynamicHeight={true} animationHandler={"fade"} swipeable={false} transitionTime={3000} interval={5000}>
                 {images.map((image, index) => {
                     return (
                         <div key={index}>
@@ -33,7 +33,7 @@ Before they can decide, Hazel's sister Emily and her wife Daria arrive for a vis
 What follows will bind the four of them together, bringing joy and heartache, hope and anxiety, and reshaping their relationships in ways that none of them quite predicted.
 
 <div className='outnow'>Out now in hardback (UK) and paperback (US)</div>
-<div className='buttonholder'><button className='buyedition'>Buy UK Edition</button><button className='buyedition'>Buy US edition</button></div>
+<div className='buttonholder'><button className='buyedition'>Buy UK edition</button><button className='buyedition'>Buy US edition</button></div>
 </section>
         </div>
 
