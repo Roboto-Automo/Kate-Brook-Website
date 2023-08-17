@@ -11,9 +11,10 @@ const images = [
    
 
     return (
+        <div className='bookpagecontainter'>
         <div className='book'>
-        <div className='crsl-container'>
-       <Carousel className='crsl' showThumbs={false} width={'100%'} height={'100%'} >
+        <div className='carousel-container'>
+            <Carousel className='crsl' showThumbs={false}>
                 {images.map((image, index) => {
                     return (
                         <div key={index}>
@@ -21,13 +22,37 @@ const images = [
                         </div>
                     )
                 })}
-       </Carousel>
-       </div>
+            </Carousel>
+        </div>
+      
             <section className="synopsis">Hazel and Alfie have just moved in together as flatmates. They've also just slept together, which was either a catastrophic mistake, or the best decision of their lives.
 <br></br><br></br>
 Before they can decide, Hazel's sister Emily and her wife Daria arrive for a visit, setting in motion a chain of events that will turn everything upside down.
 <br></br><br></br>
-What follows will bind the four of them together, bringing joy and heartache, hope and anxiety, and reshaping their relationships in ways that none of them quite predicted.</section>
+What follows will bind the four of them together, bringing joy and heartache, hope and anxiety, and reshaping their relationships in ways that none of them quite predicted.
+
+<div className='outnow'>Out now in hardback (UK) and paperback (US)</div>
+<div className='buttonholder'><button className='buyedition'>Buy UK Edition</button><button className='buyedition'>Buy US edition</button></div>
+</section>
+        </div>
+
+        <section className='topcomment'>'I absolutely loved every word of it.'
+<br></br>
+<em>Netgalley review</em></section>
+<section className='quotegrid'>
+    <div className='quote'>'I adored this book - fresh, funny and thought provoking, I fell in love with the characters and did not want it to end'
+    <br></br>
+<em>Sophie Cousens, author of This Time Next Year</em></div>
+    <div className='quote'>'A clever and insightful take on what love and family mean in the twenty-first century'
+    <br></br>
+<em>Nicola Gill, author of We Are Family</em></div>
+    <div className='quote'>'Captures the intricacies of modern relationships with undeniable skill, heaps of humour and a style that fans of Sally Rooney will love. Captivating and addictively complex ... a delight'
+<br></br>
+Ashley Hickson-Lovence, author of Your Show</div>
+    <div className='quote'></div>
+    <div className='quote'></div>
+    <div className='quote'></div>
+</section>
         </div>
     )
 };

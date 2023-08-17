@@ -1,24 +1,36 @@
 .book {
-    display: flex;
-    align-items: center;
-    margin: 100px 200px;
-}
-
-.crsl-container {
-    width: 728px; /* Set to the original image width */
-    height: auto; /* Allow height to adjust based on aspect ratio */
+    display: grid;
+    grid-template-columns: 300px auto; /* Fixed width for carousel, remaining space for synopsis */
+    column-gap: 20px; /* Add some space between the carousel and synopsis */
+    margin: 100px 200px 0px 200px;
+    text-align: center;
 }
 
 .crsl {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    }
-   
+}
+
 .synopsis {
-    width: 90%;
+    width: 460px;
     font-size: 16px;
     line-height: 24px;
-    text-align: justify;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.1px;
+    word-spacing: 0.04em; /* Adjust this value as needed */
+}
+
+.outnow{
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.buttonholder{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.topcomment{
+    text-align: center;
 }
