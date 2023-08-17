@@ -14,18 +14,19 @@ const images = [
         <div className='bookpagecontainter'>
         <div className='book'>
         <div className='carousel-container'>
-            <Carousel className='crsl' showThumbs={false}>
+            <Carousel className='crsl' showStatus={false}showThumbs={false} autoPlay={true} infiniteLoop={true} dynamicHeight={true}>
                 {images.map((image, index) => {
                     return (
                         <div key={index}>
-                            <img src={image} alt="book cover" />
+                            <img className='image' src={image} alt="book cover" />
                         </div>
                     )
                 })}
             </Carousel>
         </div>
       
-            <section className="synopsis">Hazel and Alfie have just moved in together as flatmates. They've also just slept together, which was either a catastrophic mistake, or the best decision of their lives.
+            <section className="synopsis">
+            <br></br><br></br>Hazel and Alfie have just moved in together as flatmates. They've also just slept together, which was either a catastrophic mistake, or the best decision of their lives.
 <br></br><br></br>
 Before they can decide, Hazel's sister Emily and her wife Daria arrive for a visit, setting in motion a chain of events that will turn everything upside down.
 <br></br><br></br>
