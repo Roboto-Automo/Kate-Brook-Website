@@ -1,9 +1,18 @@
+.bookpagecontainer {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .book {
     display: grid;
     grid-template-columns: 360px auto; /* Fixed width for carousel, remaining space for synopsis */
-    column-gap: 20px; /* Add some space between the carousel and synopsis */
-    margin: 80px 150px 0px 150px;
-    text-align: center;
+    column-gap: 2vh; /* Add some space between the carousel and synopsis */
+    margin: 8vh 20vh 1vh 20vh;
+    width: 100%; /* Ensure the container takes full width */
+    max-width: 960px; /* Limit the container's maximum width */
+   
 }
 .image{
 width:360px;
@@ -20,7 +29,7 @@ height:550px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1px;
-    word-spacing: 0.04em; /* Adjust this value as needed */
+    word-spacing: 0.04em; 
 }
 
 .outnow{
@@ -35,6 +44,10 @@ height:550px;
 }
 
 .topcomment{
+    font-family: 'CustomFont';
+    font-size: 16px;
+    margin:  70px 15px 0px 15px;
+    color: rgb(50, 49, 49);
     text-align: center;
 }
 
@@ -56,7 +69,24 @@ background-color: rgb(50, 49, 49);
     
 }
 
+.quote{
+
+    font-family: 'CustomFont';
+    font-size: 16px;
+    margin:  0px 15px 15px 15px;
+    padding: 9px;
+    color: rgb(50, 49, 49);
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    word-spacing: 0.04em; 
+   
+}
 
 
+.quotegrid{
+    display: flex;
+   width:70%;
+}
 
 
