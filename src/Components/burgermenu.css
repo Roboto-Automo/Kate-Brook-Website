@@ -1,5 +1,6 @@
 .burger-menu {
     display: none; 
+    z-index: 1000;
 }
 
 .burger-icon {
@@ -38,6 +39,7 @@
     height: 100%;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
     
 }
 
@@ -67,7 +69,13 @@
     }
 
     .burger-menu {
-        display: block; /* Show burger menu on small screens */
+        display: flex;
+        width: 100%;
+        flex-direction: flex-end;
     }
+
+    
+
+   
 }
 

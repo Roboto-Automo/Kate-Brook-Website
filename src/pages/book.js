@@ -33,7 +33,7 @@ Before they can decide, Hazel's sister Emily and her wife Daria arrive for a vis
 What follows will bind the four of them together, bringing joy and heartache, hope and anxiety, and reshaping their relationships in ways that none of them quite predicted.
 
 <div className='outnow'>Out now in hardback (UK) and paperback (US)</div>
-<div className='buttonholder'><button className='buyedition'>Buy UK edition</button><button className='buyedition'>Buy US edition</button></div>
+<div className='buttonholder'><a href='https://atlantic-books.co.uk/book/not-exactly-what-i-had-in-mind/' target="_blank" rel="noopener noreferrer"><button className='buyedition'>Buy UK edition</button></a> <a href='https://www.penguinrandomhouse.com/books/697277/not-exactly-what-i-had-in-mind-by-kate-brook/' target="_blank" rel="noopener noreferrer"><button className='buyedition'>Buy US edition</button></a></div>
 </section>
 
         </div>
