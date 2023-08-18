@@ -8,7 +8,6 @@
 .book {
     display: grid;
     grid-template-columns: 360px auto; /* Fixed width for carousel, remaining space for synopsis */
-    column-gap: 2vh; /* Add some space between the carousel and synopsis */
     margin: 8vh 20vh 1vh 20vh;
     width: 100%; /* Ensure the container takes full width */
     max-width: 960px; /* Limit the container's maximum width */
@@ -90,3 +89,16 @@ background-color: rgb(50, 49, 49);
 }
 
 
+@media (max-width: 720px) {
+
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:360px;
+}
+.synopsis {
+    width: auto; /* Adjust the width to the content size */
+}
+
+}
