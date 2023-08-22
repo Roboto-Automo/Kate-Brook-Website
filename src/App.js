@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Home from "./pages/home";
 import Book from "./pages/book";
 import Other from "./pages/other";
@@ -18,10 +19,10 @@ function App() {
         <Route path="/other" element={<Other />} />
       </Routes>
       <div className="IconsContainer">
-        <a href="https://www.twitter.com/katebrook1">
+        <a href="https://www.twitter.com/katebrook1" target="_blank" rel="noopener noreferrer">
           <img className="Icon" src={twitter} alt="Icon 2" />
         </a>
-        <a href="https://www.instagram.com/kate_br00k/">
+        <a href="https://www.instagram.com/kate_br00k/" target="_blank" rel="noopener noreferrer">
           <img className="Icon" src={insta} alt="Icon 1" />
         </a>
       </div>
