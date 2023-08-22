@@ -103,4 +103,10 @@ background-color: rgb(50, 49, 49);
     width: auto; /* Adjust the width to the content size */
 }
 
+.quotegrid{
+    display: flex;
+    flex-direction: column;
+   width:70%;
+}
+
 }
