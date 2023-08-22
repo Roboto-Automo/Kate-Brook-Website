@@ -1,7 +1,9 @@
 import "./other.css";
+import AnimatedPage from "../Components/transition";
 
 export default function Other() {
   return (
+    <AnimatedPage> 
     <div className="other">
       <h1>OTHER WRITING</h1>
       <section className="otherwriting">
@@ -34,5 +36,6 @@ export default function Other() {
         </div>
       </section>
     </div>
+    </AnimatedPage> 
   );
 }

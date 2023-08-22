@@ -10,9 +10,10 @@
     align-items: center;
     color: #000000;
     font-family: 'CustomFont';
+    /* make font thin */
+    font-weight: light;
     font-size: 17px;
     margin-top: 30px;
-    
     margin-left: 30px;
 }
 
@@ -20,7 +21,6 @@
 .navbar a {
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Inherit the text color from the parent */
-    font-weight: bold; /* Apply bold font to the links */
     padding-right: 50px;
     padding-left: 50px;
 }

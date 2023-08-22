@@ -3,6 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import cover1 from '../images/cover1.jpg'
 import cover2 from '../images/cover2.jpg'
+import AnimatedPage from '../Components/transition';
+
 export default function Book() {
 const images = [
     cover1,
@@ -11,6 +13,7 @@ const images = [
    
 
     return (
+        <AnimatedPage>
         <div className='bookpagecontainer'>
         <div className='book'>
         <div className='carousel-container'>
@@ -66,5 +69,6 @@ What follows will bind the four of them together, bringing joy and heartache, ho
     </div>
 </section>
         </div>
+        </AnimatedPage>
     )
 };
