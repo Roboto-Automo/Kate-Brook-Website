@@ -1,20 +1,12 @@
 import "./home.css";
 import { Link } from "react-router-dom";
 import KateBrookImage from "../images/KateBrook.jpg";
-import { Helmet } from "react-helmet";
 import AnimatedPage from "../Components/transition";
 
 function Home() {
   return (
     <AnimatedPage>
       <div>
-        <Helmet>
-          <title>Your Page Title</title>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-        </Helmet>
         <div className="Home">
           <h1>KATE BROOK</h1>
           <figure>
