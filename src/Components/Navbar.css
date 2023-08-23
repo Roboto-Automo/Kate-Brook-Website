@@ -1,27 +1,29 @@
 @font-face {
-    font-family: 'CustomFont'; 
-    src: url('../Fonts/FontsFree-Net-Avenir-Light.ttf') format('truetype'); 
-  }
-
-
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    font-family: 'CustomFont';
-    /* make font thin */
-    font-weight: light;
-    font-size: 17px;
-    margin-top: 30px;
-    margin-left: 30px;
+  font-family: 'CustomFont'; 
+  src: url('../Fonts/FontsFree-Net-Avenir-Light.ttf') format('truetype'); 
 }
 
-/* Apply styling to the links */
-.navbar a {
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Inherit the text color from the parent */
-    padding-right: 50px;
-    padding-left: 50px;
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-family: 'CustomFont';
+  /* make font thin */
+  font-weight: light;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
+.navbar-link {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit the text color from the parent */
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.navbar-link:hover,
+.navbar-link.active-link {
+  font-weight: bold;
+}
