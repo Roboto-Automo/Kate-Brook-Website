@@ -21,9 +21,11 @@
   color: inherit; /* Inherit the text color from the parent */
   padding-right: 50px;
   padding-left: 50px;
+   letter-spacing: 0.01em;
 }
 
 .navbar-link:hover,
 .navbar-link.active-link {
   font-weight: bold;
+   
 }
