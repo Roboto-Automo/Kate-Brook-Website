@@ -12,7 +12,6 @@ export default function Navbar() {
 
     return (
         <div className="navbar">
-            {/* Show original links on larger screens */}
             <div className="original-links">
                 <Link
                     to="/"

@@ -8,6 +8,7 @@ const animations = {
 
 export default function AnimatedPage({ children }) {
   return (
+
     <motion.div
       variants={animations}
       initial="initial"
@@ -17,5 +18,6 @@ export default function AnimatedPage({ children }) {
     >
       {children}
     </motion.div>
+    
   );
 }
