@@ -1,12 +1,12 @@
 import "./book.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import cover1 from "../images/cover1.jpg";
+import cover3 from "../images/cover3.jpg";
 import cover2 from "../images/cover2.jpg";
 import AnimatedPage from "../Components/transition";
 
 export default function Book() {
-  const images = [cover1, cover2];
+  const images = [cover3, cover2];
 
   return (
     <AnimatedPage>
@@ -34,8 +34,9 @@ export default function Book() {
               })}
             </Carousel>
           </div>
-
+      
           <section className="synopsis">
+          
             <br></br>
             <br></br>Hazel and Alfie have just moved in together as flatmates.
             They've also just slept together, which was either a catastrophic
@@ -71,7 +72,9 @@ export default function Book() {
             </div>
           </section>
         </div>
+     
         <div className="topcomment">
+        
           'I absolutely loved every word of it.'
           <br></br>
           <em>Netgalley review</em>

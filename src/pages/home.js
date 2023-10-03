@@ -24,7 +24,16 @@ function Home() {
             PhD in French Literature and Visual Art from King’s College London,
             and have worked as a bookseller and in publishing.
             <br />
-            <br />
+            <p>Subscribe to my <a
+              href="https://substack.com/@katebrook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Substack 
+            </a>{" "}
+             to read semi-regular ramblings on miscellaneous topics.</p>
+            
+            
             Please send general enquiries to{" "}
             <a href="mailto:contact@example.com">Philippa Sitters</a> at DGA, or
             come and say hello on{" "}
